@@ -1,0 +1,35 @@
+{
+  "$schema": "../schema/fixedincome.v1.json",
+  "metadata": {
+    "referenceTimestamp": "2024-01-02T12:00:00.000000Z"
+  },
+  "dataSetId": 0,
+  "identifiers": [
+    {
+      "isin": "CH40000",
+      "dataSetId": 1234,
+      "primary": true
+    },
+    {
+      "cusip": "someCusip",
+      "linked": true,
+      "dataSetId": 1234
+    },
+    {
+      "valor": "someValor",
+      "linked": true,
+      "dataSetId": 5678
+    }
+  ],
+  "issuer": {
+    "identifiers": [
+      {
+        "lei": "969500CJCTMI93QJKK89"
+      }
+    ],
+    "domicile": "FR",
+    "supplier:entityName": "AXA Banque SA"
+  },
+  "issueDate": "2024-01-01",
+  "couponType": "FIXED"
+}
